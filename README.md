@@ -5,10 +5,7 @@ Assumptions and decisions:
 3. Web Application and Console application use the same use case from the Application layer. So we don't duplicate any logic.
 4. Requirements say that I need not only to return the top 5 sold products but to change product stock for the same use case.
 This part violates the Single Responsibility Principle and Command Query Separation Principle. I don't like it but I followed the description of the task.
-5. I don't load orders page by page, but only load the first page. It is a tradeoff to save some time. Loading all pages is trivial.
 6. All my code is only for demonstration purposes. We can discuss all the missing elements in an interview.
-7. I did not have enough time to learn your API, probably I could use the wrong endpoints. I believe it is not a problem.
-I expected not to ask any question about the assessment, but implement it as I get it.
 
 As soon as it is test assessment and I have restricted time:
 1. I did not implement any error handling logic
